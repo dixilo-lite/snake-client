@@ -8,12 +8,14 @@ const connect = function() {
 
    conn.on("connect",() => {
     console.log("Connected!");
+    conn.write("Name: J.C");
    });
 
    //returns data from the server
    conn.on("data",(data) => {
     console.log(data);
    });
+
    return conn;
 
 };
