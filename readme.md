@@ -8,7 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["image of the worm chasing the food while displaying a message"](/pictures/Screenshot%202025-05-16%20at%2010.29.25 PM.png
+!["image of the worm chasing the food while displaying a message"](/pictures/Screenshot%202025-05-16%20at%2010.29.25 PM.png)
 
 
 
