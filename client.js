@@ -1,4 +1,4 @@
-const net=require("net");
+const net = require("net");
 const {IP, PORT} = require("./constants");
 const connect = function() {
    const conn = net.createConnection({
@@ -10,8 +10,6 @@ const connect = function() {
    conn.on("connect",() => {
     console.log("Connected!");
     conn.write("Name: J.C");
-    conn.write("Move: left");
-    conn.write("Move: up");
    });
 
    //returns data from the server
